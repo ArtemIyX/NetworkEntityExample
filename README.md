@@ -1,8 +1,7 @@
 <div align="center">
 
-<!-- Header image placeholder: add an image to the repository and update this path.
-<img src="docs/images/header.png" alt="Network Entity Example header" width="100%" />
--->
+<img width="1280" height="640" alt="Header" src="https://github.com/user-attachments/assets/0c6d88b4-8798-4845-a31f-f17592602b53" />
+
 
 # Network Entity Example
 
