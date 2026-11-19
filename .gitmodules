@@ -1,0 +1,3 @@
+[submodule "Plugins/FLECS"]
+	path = Plugins/FLECS
+	url = https://github.com/ArtemIyX/flECSUnreal.git
