@@ -1,0 +1,244 @@
+# ============================================
+# Unreal Engine - Detailed .gitignore
+# ============================================
+
+# -------------------------
+# Visual Studio / Rider / IDE
+# -------------------------
+.vs/
+.vscode/
+.idea/
+*.suo
+*.user
+*.sln
+*.userosscache
+*.sln.docstates
+*.VC.db
+*.VC.VC.opendb
+*.opensdf
+*.sdf
+*.ncb
+*.xcodeproj
+*.xcworkspace
+xcuserdata/
+*.swp
+*~
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# -------------------------
+# Intermediate / Build
+# -------------------------
+Binaries/
+DerivedDataCache/
+Intermediate/
+Saved/
+Build/
+*.pdb
+*.ilk
+*.exp
+*.lib
+*.obj
+*.o
+*.a
+*.idb
+*.ipdb
+*.iobj
+*.tlog
+*.log
+*.lastbuildstate
+
+# -------------------------
+# Config (local / generated)
+# -------------------------
+Config/Linux/
+Config/Mac/
+Config/Windows/
+Config/IOS/
+Config/Android/
+Config/Unix/
+Config/TVOS/
+Config/HoloLens/
+Config/Switch/
+Config/PS4/
+Config/PS5/
+Config/XboxOne/
+Config/XSX/
+Config/DefaultCrypto.ini
+Config/DefaultEncryption.ini
+
+# Keep shared configs
+!Config/DefaultEngine.ini
+!Config/DefaultGame.ini
+!Config/DefaultInput.ini
+
+# -------------------------
+# Content & Assets (generated / local)
+# -------------------------
+Content/Collections/
+Content/Developers/
+Content/StagedBuilds/
+*.uasset.bak
+*.umap.bak
+*.bak
+*.tmp
+*.temp
+
+# -------------------------
+# Packaging / Cooked / Deployment
+# -------------------------
+Packaged/
+StagedBuilds/
+Saved/StagedBuilds/
+Saved/Cooked/
+Saved/Autosaves/
+Saved/Backup/
+Saved/Crashes/
+Saved/Logs/
+Saved/ShaderDebugInfo/
+Saved/webcache/
+Saved/webcache_*/
+Saved/Config/
+Saved/Collections/
+Saved/UnrealBuildTool/
+*.pak
+*.ucas
+*.utoc
+*.ushaderbytecode
+*.upluginmanifest
+
+# -------------------------
+# Platform Specific
+# -------------------------
+# Windows
+*.exe
+*.dll
+*.pdb
+*.lib
+*.exp
+*.ilk
+*.obj
+
+# macOS
+*.app
+*.dylib
+*.dSYM/
+*.framework
+
+# Linux
+*.so
+*.a
+
+# Mobile
+*.apk
+*.aab
+*.ipa
+*.appx
+*.appxbundle
+*.msix
+*.msixbundle
+
+# -------------------------
+# Plugins (local / binary)
+# -------------------------
+Plugins/**/Binaries/
+Plugins/**/Intermediate/
+Plugins/**/Saved/
+Plugins/**/DerivedDataCache/
+
+# -------------------------
+# Source Control / Version Control extras
+# -------------------------
+.perforce/
+.p4ignore
+*.orig
+*.rej
+*.merge
+*.conflict
+
+# -------------------------
+# Documentation / Generated
+# -------------------------
+Documentation/Source/
+*.chm
+*.pdf.bak
+
+# -------------------------
+# Python / Automation / Scripts
+# -------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.Python
+env/
+venv/
+.venv/
+*.pyc
+
+# -------------------------
+# Node / Web (if using Pixel Streaming, etc.)
+# -------------------------
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+yarn.lock
+
+# -------------------------
+# Unreal specific generated files
+# -------------------------
+*.generated.h
+*.generated.cpp
+*.gen.cpp
+*.gen.h
+*.h.inl
+CompileCommands/
+.clangd
+.compile_commands.json
+compile_commands.json
+
+# -------------------------
+# Crash reports & Diagnostics
+# -------------------------
+CrashReportClient/
+*.dmp
+*.mdmp
+*.wer
+
+# -------------------------
+# Local user settings / secrets
+# -------------------------
+*.local
+*.secret
+*.key
+*.pem
+*.p12
+*.pfx
+.env
+.env.*
+*.credentials
+
+# -------------------------
+# Large binary / cache (optional but recommended)
+# -------------------------
+*.cache
+*.bin
+DerivedDataCache/**
+!DerivedDataCache/.gitkeep
+
+# -------------------------
+# Miscellaneous
+# -------------------------
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+.agent
